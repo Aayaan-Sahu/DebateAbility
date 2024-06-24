@@ -26,7 +26,7 @@ export default function Intro() {
       </div>
       <div className="px-16">
         <h1 className="font-thin text-7xl py-1">
-          Hi, We're{" "}
+          Hi, We&apos;re{" "}
           <span className="underline-animation hover:text-purple-500 duration-100 ease-in-out">
             DebateAbility
           </span>
