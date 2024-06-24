@@ -17,7 +17,9 @@ export default function Contact() {
         <p className="text-sm">Designed by Aayaan Sahu with ❤️</p>
       </div>
       <div className="hidden md:flex space-x-8">
-        <p className="hover:text-purple-500 duration-100 ease-in-out">EMAIL</p>
+        <Link target="_blank" href="mailto:mukilan.rajasekar@gmail.com">
+          <p className="hover:text-purple-500 duration-100 ease-in-out">EMAIL</p>
+        </Link>
         <Link target="_blank" href="https://www.instagram.com/debate_ability/">
           <p className="hover:text-purple-500 duration-100 ease-in-out">
             INSTAGRAM

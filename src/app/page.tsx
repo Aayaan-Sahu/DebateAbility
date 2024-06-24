@@ -20,9 +20,9 @@ function returnMemberData() {
     "mukilan",
     "dhruv",
     "chaith",
+    "naveen",
     "maanika",
     "sudhanva",
-    "naveen",
   ];
   let membersData = new Map<string, MemberData>();
   teamMembers.forEach((member) => {
