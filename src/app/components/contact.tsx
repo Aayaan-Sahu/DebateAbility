@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -17,9 +18,11 @@ export default function Contact() {
       </div>
       <div className="hidden md:flex space-x-8">
         <p className="hover:text-purple-500 duration-100 ease-in-out">EMAIL</p>
-        <p className="hover:text-purple-500 duration-100 ease-in-out">
-          INSTAGRAM
-        </p>
+        <Link target="_blank" href="https://www.instagram.com/debate_ability/">
+          <p className="hover:text-purple-500 duration-100 ease-in-out">
+            INSTAGRAM
+          </p>
+        </Link>
       </div>
     </div>
   );
